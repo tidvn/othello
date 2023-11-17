@@ -112,28 +112,14 @@ export const PlayerComputer = () => {
 //   );
 // };
 
-export const Level = () => {
-  return (
-    // <svg
-    //   xmlns="http://www.w3.org/2000/svg"
-    //   width="30px"
-    //   height="30px"
-    //   viewBox="0 -46 417.81333 417"
-    // >
-    //   <g>
-    //     <path
-    //       d="M154.128,124.383c20.486-11.472,40.563-24.994,55.312-44.25h54.898v285.979h-61.863V146.097
-		// 	c-14.749,12.292-31.548,22.942-48.347,31.957V124.383z"
-    //     />
-    //   </g>
-    // </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 -46 417.81333 417">
-  <g>
-    <path d="M154.128,124.383c20.486-11.472,40.563-24.994,55.312-44.25h54.898v285.979h-61.863V146.097 c-14.749,12.292-31.548,22.942-48.347,31.957V124.383z"/>
-  </g>
-</svg>
-
-  );
+export const Level1 = () => {
+  return <>Dễ</>;
+};
+export const Level2 = () => {
+  return <>Trung Bình</>;
+};
+export const Level3 = () => {
+  return <>Khó</>;
 };
 export const CheckMark = () => {
   return (
